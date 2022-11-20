@@ -1,5 +1,5 @@
 --
-title: 'Ways to maintain active career'
+title: 'Ways to maintain analyst career'
 date: '2022-11-19'
 --
 

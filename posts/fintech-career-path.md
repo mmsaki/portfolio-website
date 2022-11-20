@@ -1,7 +1,7 @@
----
-title: 'Fintech Career Overview'
+--
+title: 'Fintech Analyst Career Overview'
 date: '2022-11-20'
----
+--
 ## Why Financial Technology?
 - Booming field
 - Significant demand
