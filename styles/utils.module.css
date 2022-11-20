@@ -48,3 +48,7 @@
 .bolded {
     font-weight: bold;
 }
+
+.padding1px {
+    padding: 1;
+}

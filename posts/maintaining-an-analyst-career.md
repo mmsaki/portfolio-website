@@ -1,7 +1,7 @@
---
-title: 'Ways to maintain analyst career'
+---
+title: 'Ways to maintain your analyst career'
 date: '2022-11-19'
---
+---
 
 # Build Your Visibility 
 - Maintain an active HackerRank presence and profile.

@@ -1,7 +1,8 @@
---
-title: 'Fintech Analyst Career Overview'
+---
+title: 'Fintech Analyst Career'
 date: '2022-11-20'
---
+---
+
 ## Why Financial Technology?
 - Booming field
 - Significant demand
@@ -75,7 +76,7 @@ Below is a list of potential roles in FinTech. Your ability to gain employment i
 
 - **Financial Analyst**
     - Assist with forecasting, budgeting and planning processes that includes data validation, setup/maintenance of reporting tools, tracking and auditing. Present improvements for performance, revenue and partnerships. 
-    - *Tags*: B**usiness Operations Analyst, IT Financial Planning Analyst, Senior Financial Analyst.**
+    - *Tags*: **Business Operations Analyst, IT Financial Planning Analyst, Senior Financial Analyst.**
     - *Previous Roles*: **Data Analyst, cross-over landscapes.**
     - *Future Roles*: **BI Developer, BI Analyst, Big Data Analyst, Consultant, Risk Analyst, Lead/Director.**
 
