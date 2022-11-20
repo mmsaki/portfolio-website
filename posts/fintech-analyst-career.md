@@ -1,9 +1,12 @@
 ---
-title: 'Fintech Analyst Career'
+title: 'Fintech analyst career'
 date: '2022-11-20'
 ---
 
 ## Why Financial Technology?
+
+*(Source: 2U Careers)*
+
 - Booming field
 - Significant demand
 - Desirable payscale

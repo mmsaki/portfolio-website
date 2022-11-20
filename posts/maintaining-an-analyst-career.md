@@ -4,6 +4,9 @@ date: '2022-11-19'
 ---
 
 # Build Your Visibility 
+
+*(Source: 2U Careers)*
+
 - Maintain an active HackerRank presence and profile.
 - Attend all employer facing events organized by the program.
 - Attend 1-2 local Meetups / Eventbrite events per week, make 2-3 solid connections per event.
