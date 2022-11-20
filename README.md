@@ -1,1 +1,3 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# Porfolio Website
+
+Hello, I'm **Meek**. I'm a Fintech/Blockachain analyst on github. Visit my website [here]()
