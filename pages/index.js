@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Layout home>
       <Head>
-        <title>Create Next App</title>
+        <title>Meek Msaki</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className={utilStyles.headingMd}>
