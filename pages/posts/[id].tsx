@@ -18,6 +18,10 @@ export default function Post({
     <Layout>
       <Head>
         <title>{postData.title}</title>
+        <meta
+          property='og:image'
+          content='http://localhost:3000/api/og?title=my post title'
+        />
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
