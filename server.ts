@@ -22,7 +22,7 @@ const appRouter = t.router({
 
     }).query((req) => {
         const { input } = req
-        const user = userList.find((u) => u.od === input)
+        const user = userList.find((u) => u.id === input)
         return user
     }),
     userCreate: t.procedure.input(z.object({ name: z.string() })).mutation((req) => {
