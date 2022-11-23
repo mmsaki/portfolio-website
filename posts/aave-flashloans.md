@@ -1,7 +1,7 @@
 ---
-title: 'Aave Flashloans'
-date: '2022-09-28'
-author: 'Meek Msaki'
+title: "Aave Flashloans"
+date: "2022-09-28"
+author: "Meek Msaki"
 ---
 
 [**GitHub Repository**](https://github.com/mmsaki/rush)
@@ -16,9 +16,9 @@ Aave v3 Core lending pool allows you to borrow assets using flashloan contracts.
 
 With Rush, my goal is to provide you with a forex tool to help you maximize your borrowing power and debt positions. If you have supplied collateral on Aave before, this might be of great use to you. All Defi users, with or without technical backgrounds, can learn how to use flashloans without any complications. We want to ensure our forex tool provides secure interactions with Aave's lending pools using flashloan receiver smart contracts. You only have to pay a flashloan premium fee currently at `0.09%`.
 
-| :warning: WARNING          |
-|:---------------------------|
-| I should warn you. You will not make any profits from using flashloans as they are on this repo.      |
+| :warning: WARNING                                                                                |
+| :----------------------------------------------------------------------------------------------- |
+| I should warn you. You will not make any profits from using flashloans as they are on this repo. |
 
 ## Getting Started
 
@@ -40,19 +40,18 @@ def pretty_table(rows, column_count, column_spacing=4):
 
 ```
 
-
-
 ## How It's Made
 
 - We used Aave V3 Core contracts to build Rush.
 
-    ↳ We deployed to Optimism Goerli for testing
+  ↳ We deployed to Optimism Goerli for testing
 
-    ↳ We deployed two contracts
+  ↳ We deployed two contracts
 
   - `RushFlashLoan`
     - For borrowing multiple tokens
   - `RushSimpleFlashLoan`
+
     - For borrowing a single token
 
     ↳ We ensure we have enough funds to pay flashloan fee.
@@ -84,8 +83,8 @@ def pretty_table(rows, column_count, column_spacing=4):
     - Ensure we have enough funds when flashloaning
     - Calculate the profitability of liquidating loans vs gas costs
     - Ensure we have access toe the latest protocol user data
-    - Fail safe security 
-- Aave contracts and registry on Optimism 
+    - Fail safe security
+- Aave contracts and registry on Optimism
     - [V3 Testnet Aave Address on Optimism Görli](https://docs.aave.com/developers/deployed-contracts/v3-testnet-addresses) -->
 
 ## Roadmap

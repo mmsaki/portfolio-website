@@ -1,7 +1,7 @@
 // This SSG page generates the token to prevent generating OG images with random parameters (`id`).
-import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next';
-import { ParsedUrlQuery } from 'querystring';
-import { createHmac } from 'node:crypto';
+import { GetStaticProps, GetStaticPaths, GetServerSideProps } from "next";
+import { ParsedUrlQuery } from "querystring";
+import { createHmac } from "node:crypto";
 
 interface IParams extends ParsedUrlQuery {
   id: string;
@@ -14,9 +14,9 @@ type PageProps = {
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const { id } = context.params as IParams;
-  const hmac = createHmac('sha256', 'my_secret');
+  const hmac = createHmac("sha256", "my_secret");
   hmac.update(JSON.stringify({ id: id }));
-  const token = hmac.digest('hex');
+  const token = hmac.digest("hex");
 
   return {
     props: {
@@ -29,9 +29,9 @@ export const getStaticProps: GetStaticProps = async (context) => {
 export function getStaticPaths() {
   return {
     paths: [
-      { params: { id: 'a' } },
-      { params: { id: 'b' } },
-      { params: { id: 'c' } },
+      { params: { id: "a" } },
+      { params: { id: "b" } },
+      { params: { id: "c" } },
     ],
     fallback: false,
   };

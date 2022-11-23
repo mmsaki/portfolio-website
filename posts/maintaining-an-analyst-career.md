@@ -1,6 +1,6 @@
 ---
-title: 'Ways to maintain your analyst career'
-date: '2022-11-19'
+title: "Ways to maintain your analyst career"
+date: "2022-11-19"
 ---
 
 ## Build Your Visibility
@@ -37,4 +37,4 @@ date: '2022-11-19'
 - Join local chapters of professional organizations.
 - Build a solo project.
 
-- *(Source: 2U Careers)*
+- _(Source: 2U Careers)_
