@@ -23,23 +23,22 @@ export default function Home({
       </Head>
       <section tw={utilStyles.headingMd}>
         <p>
-          Hello, I'm <span tw={utilStyles.bolded}>Meek. </span>
+          Hello, I'm <span className={utilStyles.bolded}>Meek. </span>
           I'm a Blockchain Analytics Engineer and an Artist (Sculptor & Music
           Producer). You can contact me on{" "}
           <a href="https://twitter.com/msakiart">Twitter</a>.
         </p>
       </section>
       <section></section>
-      <section tw={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 tw={utilStyles.headingLg}>Blog</h2>
-        <ul tw={utilStyles.list}>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, author }) => (
-            <li tw={utilStyles.listItem} key={id}>
+            <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>{title}</Link>
               <br />
-              <small tw={utilStyles.lightText}>
+              <small className={utilStyles.lightText}>
                 <Date dateString={date} />
-                <p>{author}</p>
               </small>
             </li>
           ))}
