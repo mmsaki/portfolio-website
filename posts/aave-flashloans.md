@@ -60,8 +60,8 @@ The flash loan fee is initialized at deployment to `0.09%` which is updated via 
   - Update: We Missed checkin #1
 - [x] Create Logo
   - [Rush logo]()
-- [x] Create Discord
-  - [Discord](https://discord.gg/57TA3bHx62)
+- [] Create Discord
+  - [Discord]()
 - [x] Submit Checkin #2
   - How is the project coming along?
 - [x] Create scripts
