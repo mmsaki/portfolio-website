@@ -11,7 +11,7 @@ export default function Punks() {
       </Head>
 
       <main>
-        <div className="container">
+        <div className="punk-grid">
           <Link href="/">
             <div className="card">
               <h2 className="noselect">msaki.eth™ Punks &rarr;</h2>

@@ -34,7 +34,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
+  padding: 0rem;
 }
 
 .punk {
@@ -148,8 +148,7 @@ img {
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  height: 200px;
-  width: 675px;
+  max-width: 600px;
 }
 
 .card:hover,
