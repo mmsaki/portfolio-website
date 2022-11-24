@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import utilStyles from "../../styles/utils.module.css";
 
 export default function Punks() {
   return (
@@ -13,14 +14,17 @@ export default function Punks() {
       <main>
         <div className="punk-grid">
           <Link href="/">
-            <div className="card">
-              <h2 className="noselect">msaki.eth™ Punks &rarr;</h2>
-              <p className="noselect">🚧 Under consturction. </p>
-              <p className="noselect">
-                No Punks shall leave this site. Please check back later.
-                Official realse date: now
-              </p>
-            </div>
+            <section className="card">
+              <h2
+                className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}
+              >
+                msaki.eth™ Punks &rarr;
+              </h2>
+              <p className="">🚧 Under consturction. </p>
+              <small className={`${utilStyles.lightText}`}>
+                No Punks sale on this site. Please check back later.
+              </small>
+            </section>
           </Link>
           <div>
             <div className="punk">

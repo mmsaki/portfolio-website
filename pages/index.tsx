@@ -44,14 +44,17 @@ export default function Home({
           </div>
         </section>
         <Link href="/punk">
-          <div className="card">
-            <h2 className="noselect">msaki.eth™ Punks &rarr;</h2>
+          <section className="card">
+            <h2
+              className={`${utilStyles.headingMd} ${utilStyles.padding1px} noneselect`}
+            >
+              msaki.eth™ Punks &rarr;
+            </h2>
             <p className="noselect">🚧 Under consturction. </p>
-            <p className="noselect">
-              No Punks shall leave this site. Please check back later. Official
-              realse date: now
-            </p>
-          </div>
+            <small className="noselect">
+              No Punks sales on this site. Please check back later.
+            </small>
+          </section>
         </Link>
       </div>
     </Layout>
