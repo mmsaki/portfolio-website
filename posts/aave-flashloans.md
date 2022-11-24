@@ -16,73 +16,38 @@ Aave v3 Core lending pool allows you to borrow assets using flashloan contracts.
 
 With Rush, my goal is to provide you with a forex tool to help you maximize your borrowing power and debt positions. If you have supplied collateral on Aave before, this might be of great use to you. All Defi users, with or without technical backgrounds, can learn how to use flashloans without any complications. We want to ensure our forex tool provides secure interactions with Aave's lending pools using flashloan receiver smart contracts. You only have to pay a flashloan premium fee currently at `0.09%`.
 
-| :warning: WARNING                                                                                |
-| :----------------------------------------------------------------------------------------------- |
-| I should warn you. You will not make any profits from using flashloans as they are on this repo. |
+| :warning: WARNING                                                                                                                                             |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| I should warn you. Extensively using flashloans without understanding the what you are doing can cause a major loss through fees. Be carefull with this tool. |
 
 ## Getting Started
 
-```python
-from brownie import interface
-from scripts.aave.helper_functions import get_lending_pool, get_accounts, get_account
-from scripts.aave.helper_functions import get_stable_token, get_variable_token
-from scripts.aave.helper_functions import get_atoken
+Setting up is easy. Rush is an open source project and is accessible to everyone. I am in the build process of the UI. I will make a flashloan button available to everyone. See the demo transactions in the next segment. Work in progress...
 
-def pretty_table(rows, column_count, column_spacing=4):
-    aligned_columns = []
-    for column in range(column_count):
-        column_data = list(map(lambda row: row[column], rows))
-        aligned_columns.append((max(map(len, column_data)) + column_spacing, column_data))
+Check back later. 👷
 
-    for row in range(len(rows)):
-        aligned_row = map(lambda x: (x[0], x[1][row]), aligned_columns)
-        yield ''.join(map(lambda x: x[1] + ' ' * (x[0] - len(x[1])), aligned_row))
+## Transactions Reference
 
-```
-
-## How It's Made
-
-- We used Aave V3 Core contracts to build Rush.
-
-  ↳ We deployed to Optimism Goerli for testing
-
-  ↳ We deployed two contracts
-
-  - `RushFlashLoan`
-    - For borrowing multiple tokens
-  - `RushSimpleFlashLoan`
-
-    - For borrowing a single token
-
-    ↳ We ensure we have enough funds to pay flashloan fee.
-
-    ↳ We call `.flashloan( )` on the lending pool contract
-
-  - Our `RushFlashloan` contract will receive the funds and repay to aave with a flashloan fee.
-    - We can add multiple tokens by providing the array of tokens and amounts we want to borrow.
-    - With enough net-worth you can borrow upto millions!
+See examples below of flashloan transations and how they are submitted. From these results aave fees for $1,000,000 flashloan is $500.
 
 - [1 million USDC flashloan - Etherscan](https://goerli-optimism.etherscan.io/tx/0xe7b6883bc925eef37d318efa3353a24a74ef7b04fd9e2ba2a8bdfa1116d8f1a2)
 - [100 + million Tokens flashloan - Etherscan](https://goerli-optimism.etherscan.io/tx/0xb096db8fbf39c390f343603d9dc51bd7ed41f51a47124cb6b1bdb3007f7f7a76)
 
 ## Aave Flash loan fee
 
-- The flash loan fee is initialized at deployment to `0.09%` which is updated via aave Governance Vote. Use `FLASHLOAN_PREMIUM_TOTAL` to get current value.
+The flash loan fee is initialized at deployment to `0.09%` which is updated via aave Governance Vote.
 
-  - Flashloan fee can be shared by the LPs (liquidity providers) and the protocol treasury.
+- Flashloan fee can be shared by the LPs (liquidity providers) and the protocol treasury.
 
-  - The `premium_total` represents the total fee paid by the borrowers of which:
+- The `premium_total` represents the total fee paid by the borrowers of which:
 
-    - Fee to LP = `premium_total` - `flashloan_premium_to_protocol`
+  - Fee to LP = `premium_total` - `flashloan_premium_to_protocol`
 
-    - Fee to Protocol = `flashloan_premium_to_protocol`
-
-- Still working on other features...
+  - Fee to Protocol = `flashloan_premium_to_protocol`
 
 <!-- - Setting Up
     - Ensure we have enough funds when flashloaning
     - Calculate the profitability of liquidating loans vs gas costs
-    - Ensure we have access toe the latest protocol user data
     - Fail safe security
 - Aave contracts and registry on Optimism
     - [V3 Testnet Aave Address on Optimism Görli](https://docs.aave.com/developers/deployed-contracts/v3-testnet-addresses) -->
