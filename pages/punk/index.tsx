@@ -66,13 +66,20 @@ export default function Punks() {
                 <g className="beard">
                   <g className="hair">
                     <path
-                      stroke="#003334"
+                      stroke="#e22626"
                       d="M6 15h4M11 15h2M8 16h2M11 16h2M6 17h7M5 18h8M5 19h8M5 20h8M5 21h7M7 22h5"
                     />
                   </g>
                   <g className="lips">
                     <path stroke="#853217" d="M6 16h2" />
                   </g>
+                </g>
+                <g className="dreds 2">
+                  <path
+                    stroke="#e22626"
+                    d="M10 5h8M9 6h2M12 6h8M8 7h2M11 7h10M8 8h12M6 9h15M6 10h15M6 11h2M9 11h13M5 12h1M7 12h1M10 12h2M13 12h9M4 13h1M6 13h3M10 13h2M13 13h8M4 14h1M6 14h1M8 14h1M10 14h2M13 14h1M16 14h7M10 15h1M13 15h1M15 15h7M10 16h1M16 16h6M16 17h6M16 18h1M19 18h1M21 18h1M21 19h1"
+                  />
+                  <path stroke="#5bfa29" d="M11 6h1M10 7h1" />
                 </g>
                 <g className="addition">
                   <g className="smoke">
@@ -86,13 +93,6 @@ export default function Punks() {
                   </g>
                   <g className="blunt-type">
                     <path stroke="#552f16" d="M3 16h4" />
-                  </g>
-                  <g className="dreds 2">
-                    <path
-                      stroke="#229000"
-                      d="M10 5h8M9 6h2M12 6h8M8 7h2M11 7h10M8 8h12M6 9h15M6 10h15M6 11h2M9 11h13M5 12h1M7 12h1M10 12h2M13 12h9M4 13h1M6 13h3M10 13h2M13 13h8M4 14h1M6 14h1M8 14h1M10 14h2M13 14h1M16 14h7M10 15h1M13 15h1M15 15h7M10 16h1M16 16h6M16 17h6M16 18h1M19 18h1M21 18h1M21 19h1"
-                    />
-                    <path stroke="#5bfa29" d="M11 6h1M10 7h1" />
                   </g>
                 </g>
               </svg>
