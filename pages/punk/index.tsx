@@ -263,12 +263,6 @@ export default function Punks() {
                 />
                 <path stroke="#a77c47" d="M8 12h1M7 14h1" />
                 <path stroke="#bc883f" d="M12 19h2" />
-                {/* Hair */}
-                <path
-                  stroke="#e22626"
-                  d="M10 5h8M9 6h10M8 7h12M8 8h12M6 9h16M6 10h4M11 10h10M6 11h3M11 11h1M13 11h9M5 12h4M11 12h1M13 12h1M15 12h7M4 13h5M10 13h2M13 13h1M15 13h1M17 13h4M4 14h1M6 14h1M8 14h1M10 14h2M13 14h1M17 14h6M8 15h1M10 15h1M13 15h1M17 15h5M10 16h1M17 16h5M16 17h6M16 18h1M19 18h1M21 18h1M21 19h1"
-                />
-
                 {/* Cigarrete */}
                 <path
                   stroke="#c6c6c6"
