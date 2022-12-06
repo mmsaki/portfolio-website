@@ -48,7 +48,7 @@ export default function Home({
             <h2
               className={`${utilStyles.headingMd} ${utilStyles.padding1px} noneselect`}
             >
-              msaki.eth™ Punks &rarr;
+              Money Brothers™ Punk &rarr;
             </h2>
             <p className="noselect">🚧 Under consturction. </p>
             <small className="noselect">
