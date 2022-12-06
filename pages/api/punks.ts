@@ -9,9 +9,9 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
     image:
       "This is the URL to the image of the item. Can be just about any type of image (including SVGs, which will be cached into PNGs by OpenSea), and can be IPFS URLs or paths. We recommend using a 350 x 350 image.",
     image_data: "Raw SVG image data",
-    name: "Maski.eth Punks",
+    name: "American Brothers",
     background_color:
-      "Background color of the item on OpenSea. Must be a six-character hexadecimal without a pre-pended #.",
+      "fffffa",
     animation_url:
       "A URL to a multi-media attachment for the item. The file extensions GLTF, GLB, WEBM, MP4, M4V, OGV, and OGG are supported, along with the audio-only extensions MP3, WAV, and OGA. Animation_url also supports HTML pages, allowing you to build rich experiences and interactive NFTs using JavaScript canvas, WebGL, and more. Scripts and relative paths within the HTML page are now supported. However, access to browser extensions is not supported.",
     youtube_url: "A URL to a YouTube video.",
