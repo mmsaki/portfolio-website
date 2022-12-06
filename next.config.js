@@ -2,9 +2,6 @@ module.exports = {
   env: {
     customKey: "my-value",
   },
-};
-
-module.exports = {
   async redirects() {
     return [
       {
