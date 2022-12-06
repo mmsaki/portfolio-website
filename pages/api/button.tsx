@@ -16,7 +16,6 @@ export default async function () {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          animation: "spin 20s linear infinite",
         }}
       >
         <img
