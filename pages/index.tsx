@@ -25,7 +25,7 @@ export default function Home({
       <section className={utilStyles.headingMd}>
         <p>
           Hello, I'm <span className={utilStyles.bolded}>Meek. </span>
-          I'm a Blockchain Analytics Engineer and an Artist (Sculptor & Music
+          I'm a Junior Fintech/Blockchain Analytst and also an Artist (Sculptor & Music
           Producer). You can contact me on{" "}
           <Link href="https://twitter.com/msakiart">Twitter</Link>.
         </p>
@@ -35,7 +35,7 @@ export default function Home({
           <div className="grid">
             {allPostsData.map(({ id, date, title, author }) => (
               <Link href={`/posts/${id}`} className="card">
-                <div>{title}</div>
+                <div>{title} &rarr;</div>
                 <small className={utilStyles.lightText}>
                   <Date dateString={date} />
                 </small>
@@ -43,7 +43,7 @@ export default function Home({
             ))}
           </div>
         </section>
-        <Link href="/punk">
+        {/* <Link href="/punk">
           <section className="card">
             <h2
               className={`${utilStyles.headingMd} ${utilStyles.padding1px} noneselect`}
@@ -55,7 +55,7 @@ export default function Home({
               No Punks sales on this site. Please check back later.
             </small>
           </section>
-        </Link>
+        </Link> */}
       </div>
     </Layout>
   );

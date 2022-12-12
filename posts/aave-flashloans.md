@@ -1,5 +1,5 @@
 ---
-title: "Aave Flashloans"
+title: "Crpto Forex Tools: Aave Flashloans"
 date: "2022-09-28"
 author: "Meek Msaki"
 ---
@@ -60,7 +60,7 @@ The flash loan fee is initialized at deployment to `0.09%` which is updated via 
   - Update: We Missed checkin #1
 - [x] Create Logo
   - [Rush logo]()
-- [] Create Discord
+- [ ] Create Discord
   - [Discord]()
 - [x] Submit Checkin #2
   - How is the project coming along?
