@@ -44,7 +44,7 @@ export default function Home({
           <div className="grid">
             {allPostsData.map(({ id, date, title, author }) => (
               <Link href={`/posts/${id}`} className="card">
-                <div>{title} &rarr;</div>
+                <div>{title}</div>
                 <small className={utilStyles.lightText}>
                   <Date dateString={date} />
                 </small>
