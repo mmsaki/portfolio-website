@@ -1,6 +1,6 @@
 ---
 title: "The Traits of a Successful Analyst Business Owner"
-date: "2022-12-12"
+date: "2022-10-30"
 author: "Meek Msaki"
 ---
 

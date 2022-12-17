@@ -1,6 +1,6 @@
 ---
 title: "A Summary Business Plan for A Blockchain Analyst Business"
-date: "2022-12-11"
+date: "2022-05-31"
 author: "Meek Msaki"
 ---
 

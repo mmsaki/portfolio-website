@@ -1,6 +1,6 @@
 ---
 title: "Fintech analyst career"
-date: "2022-11-20"
+date: "2022-04-30"
 ---
 
 ## Why Financial Technology?

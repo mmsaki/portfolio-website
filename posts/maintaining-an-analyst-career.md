@@ -1,6 +1,6 @@
 ---
 title: "Ways to maintain your analyst career"
-date: "2022-11-19"
+date: "2022-07-30"
 ---
 
 ## Apply to Jobs

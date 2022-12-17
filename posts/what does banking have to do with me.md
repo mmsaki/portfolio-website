@@ -1,6 +1,6 @@
 ---
 title: "Exploring Innovation and Growth in the Banking Industry"
-date: "2020-08-29"
+date: "2022-08-30"
 author: "Meek Msaki"
 ---
 
@@ -18,9 +18,24 @@ A lot of what banks do is developing a risk management system for their organiza
 
 Banking systems can be effective and efficient ways to manage financial transactions and provide financial services to individuals and businesses. However, as a new generation enters the financial industry, it is important to consider how to adapt to changing circumstances and stay current with industry developments. This may involve researching and learning about how the industry has evolved and how it currently operates, as well as seeking out resources like books and documentation that can provide insights and guidance. It is essential to spend time learning about the industry and gaining a thorough understanding of its processes and practices in order to effectively contribute and make informed decisions.
 
+## What is current state of banking?
+
+- Banks are financial institutions that offer a range of services, including accepting deposits, making loans, and providing a safe place to store money.
+
+- When you open a bank account, you deposit money into the account. This money is used by the bank to make loans to other customers, which helps to generate income for the bank.
+
+- Banks also offer a variety of financial products and services, such as checking and savings accounts, credit cards, loans, and investment products.
+
+- Banks are regulated by government agencies to ensure that they operate safely and ethically, and to protect the interests of their customers.
+
+- Banks may be traditional brick-and-mortar institutions, or they may be online-only banks that operate entirely through the internet.
+
+- Some banks are for-profit institutions, while others are non-profit or owned by the government.
+
+- In order to access your money at a bank, you may use an ATM or debit card, or you may visit a bank branch to make a withdrawal or deposit.
+
+## Conclusion
+
 As I continue my research, I will document my findings and assess my knowledge. I am currently gathering information that will help me improve the accessibility and understanding of banking for individuals. I believe that cryptocurrencies have the potential to enhance the global economy and the banking industry as a whole. In my efforts to improve banking, I plan to focus on enabling customers to use web3 (blockchain interactions) while allowing traditional banks to function as intended.
 
 Stay tuned for more updates on this exciting project.
-
-## Summary
-
