@@ -25,9 +25,18 @@ export default function Home({
       <section className={utilStyles.headingMd}>
         <p>
           Hello, I'm <span className={utilStyles.bolded}>Meek. </span>
-          I'm a Junior Fintech/Blockchain Analytst and also an Artist (Sculptor & Music
-          Producer). You can contact me on{" "}
-          <Link href="https://twitter.com/msakiart">Twitter</Link>.
+          I'm a Junior Fintech/Blockchain Analytst and also an Artist (Sculptor
+          & Music Producer).
+        </p>
+        <p>
+          Welcome to my FinTech blog! I'm glad you're here. I'm thrilled to have
+          you as a reader and hope you find my insights and perspectives on
+          FinTech helpful and informative.
+        </p>
+        <p>
+          You can find me on
+          <Link href="https://github.com/mmsaki"> Github</Link> and
+          <Link href="https://twitter.com/msakiart"> Twitter</Link>.
         </p>
       </section>
       <div className="container">

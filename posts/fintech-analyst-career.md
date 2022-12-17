@@ -9,15 +9,18 @@ date: "2022-11-20"
 - Significant demand
 - Desirable payscale
 
-FinTech refers to the aspects of the financial services industry that have been disrupted by technological innovation. FinTech has become an incredibly important and rapidly growing career path, as rapid advancements in technology have bolstered the ability for smaller companies to innovate and disrupt many traditional financial domains. Larger and traditional finance firms have been forced to compete and upgrade their own technologies, thereby creating technological demand and a need for skilled technical workers. Starting or advancing in a career in FinTech requires technical skill, as well as the ability to think analytically, critically, and creatively. Those who have interest working independently, freelance and consultant positions are also on the table. Overall, it’s a challenging and globally-impactful career path.
+FinTech is a rapidly growing field within the financial industry that has been impacted by technological innovation. Both small and large financial companies are looking for skilled technical workers who can think analytically, critically, and creatively to compete and innovate in the market. Freelance and consulting opportunities are also available in the field. FinTech is a challenging and globally impactful career path.
 
-_Important Note_: FinTech is the implementation of technology within the financial domain, therefore career titles are similar to those in IT; data analyst or data and software engineer roles. Specifically seen as quantitative analysts, quantitative traders, or financial applications specialists. Bachelor’s degrees are generally required for most FinTech-related roles.
+FinTech careers typically involve the use of technology in the financial industry, and may include roles such as data analyst, software engineer, quantitative analyst, quantitative trader, and financial applications specialist. A bachelor's degree is typically required for most FinTech roles.
 
 ## Certifications
 
 ### PATHWAY CERTIFICATIONS
 
-_Note_: In FinTech, experience is the primary focus therefore there are no required certifications. The list above includes helpful certifications within the FinTech landscape. Most employers in FinTech require a bachelor’s degree as a minimum requirement and masters or doctoral degrees for Senior level roles; certifications are less important, although potentially valuable.
+- Experience is the primary focus in FinTech, so there are no required certifications
+- Most employers in FinTech require a bachelor's degree, and masters or doctoral degrees may be required for senior level roles
+- Certifications may be valuable but are not as important as a bachelor's degree or higher
+- Some helpful certifications in the FinTech industry include:
 
 | Certification | Definition                  | Associated Roles                                |
 | ------------- | --------------------------- | ----------------------------------------------- |
@@ -27,7 +30,7 @@ _Note_: In FinTech, experience is the primary focus therefore there are no requi
 
 ### In-Demand Skills
 
-Ultimately, your ability to land a specific role will come down to your experience and proficiency in these in-demand skills as well as your willingness to continue to learn. This list encompasses the FinTech field as a whole.
+Ultimately, your success in securing a specific role in the FinTech field will depend on your expertise and proficiency in the in-demand skills identified in this list, as well as your commitment to ongoing learning and professional development.
 
 ### List encompasses FinTech as a whole
 
@@ -60,9 +63,9 @@ Ultimately, your ability to land a specific role will come down to your experien
 
 ## Job Descriptions
 
-Below is a list of potential roles in FinTech. Your ability to gain employment in many of these roles will be, in some part, dependent on prior background and previous experience, as well as your specific skills.
+The list below includes potential roles. Your ability to obtain employment in these roles may depend on your previous background and experience, as well as your specific skills.
 
-### Entry-Level
+### ENTRY-LEVEL
 
 - **Business Intelligence Analyst**
 
@@ -98,7 +101,7 @@ Below is a list of potential roles in FinTech. Your ability to gain employment i
     - _Previous Roles_: **Data Analyst, cross-over landscapes**
     - _Future Roles_: **Risk & Control Manager, Consultant, Lead/Director**
 
-### Mid-Level
+### MID-LEVEL
 
 - **Blockchain Developer**
 
@@ -113,7 +116,7 @@ Below is a list of potential roles in FinTech. Your ability to gain employment i
     - _Previous Roles_: **Analyst, Blockchain/Crypto**
     - _Future Roles_: **Manager, Consultant, Lead/Director/Supervisor, Chief Risk Officer**
 
-### Senior Level
+### SENIOR LEVEL
 
 - **Quantitative Analyst**
 
@@ -129,4 +132,5 @@ Below is a list of potential roles in FinTech. Your ability to gain employment i
     - _Previous Roles_: **Research/Risk Analyst, Engineer**
     - _Future Roles_: **Consultant, Senior/VP**
 
-- _(Source: 2U Careers)_
+## Thank you!
+Thanks for reading this article! We hope you found it informative and useful. If you'd like to stay up-to-date on our latest posts, be sure to follow my blog or subscribe to my newsletter. We always welcome feedback and suggestions for future content, so feel free to leave us a comment or share your thoughts with us. We publish new articles every Tuesday and Thursday so be sure to check back often for the latest updates. And as a thank you for your loyalty, we're offering all of our returning readers useful content - just our way of saying thanks for coming back to our blog. We look forward to seeing you again soon!

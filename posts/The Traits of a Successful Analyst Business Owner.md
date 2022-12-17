@@ -4,7 +4,7 @@ date: "2022-12-12"
 author: "Meek Msaki"
 ---
 
-# What type of person can make a successful analyst business?
+## What type of person can make a successful analyst business?
 
 A successful analyst business is likely to be led by someone with a strong background in the type of analysis that the business offers. This could include a degree or professional qualification in a relevant field, such as finance, economics, data science, or business. Additionally, the business owner should have a deep understanding of the market and the specific needs of their target audience.
 
@@ -20,3 +20,5 @@ Overall, a successful analyst business is likely to be led by someone who is kno
 4. Ability to manage multiple tasks and projects effectively
 5. Adaptability and the ability to respond to changing market conditions
 6. Vision for the future of your business and the ability to develop and implement strategies to achieve your goals.
+
+Are you interested in staying on top of the latest trends in digital banking and finance? Follow my blog to get the latest insights and news.
