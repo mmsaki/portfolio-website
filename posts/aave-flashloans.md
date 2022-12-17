@@ -12,9 +12,9 @@ I made this forex tool so I can onboard many defi users to use flashloans on len
 
 ## Summary
 
-Aave v3 Core lending pool allows you to borrow assets using flashloan contracts. You can borrow crypto assets as needed so long as you can proof that you have enough collateral. The goal is to stay debt free forever. You need to understand the risks of financial burdens from borrowing assets and getting liquidated especially when the maket movements are volatile and against you. In order to avoid max losses, the only strategies you have left are flashloans.
+Aave v3 Core lending pool allows you to borrow assets using flashloan contracts. You can borrow crypto assets as needed so long as you can proof that you have enough collateral. The goal is to stay debt free. You need to understand the risks of financial burdens from borrowing assets and getting liquidated especially when the maket movements are volatile and against you. In order to avoid max losses, the only strategies you have left are flashloans.
 
-With Rush, my goal is to provide you with a forex tool to help you maximize your borrowing power and debt positions. If you have supplied collateral on Aave before, this might be of great use to you. All Defi users, with or without technical backgrounds, can learn how to use flashloans without any complications. We want to ensure our forex tool provides secure interactions with Aave's lending pools using flashloan receiver smart contracts. You only have to pay a flashloan premium fee currently at `0.09%`.
+Withthis project, my goal is to provide you with a forex tool to help you maximize your borrowing power and debt positions. If you have supplied collateral on Aave before, this might be of great use to you. All Defi users, with or without technical backgrounds, can learn how to use flashloans without any complications. We want to ensure our forex tool provides secure interactions with Aave's lending pools using flashloan receiver smart contracts. You only have to pay a flashloan premium fee currently at `0.09%`.
 
 | :warning: WARNING                                                                                                                                             |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -22,9 +22,11 @@ With Rush, my goal is to provide you with a forex tool to help you maximize your
 
 ## Getting Started
 
-Setting up is easy. Rush is an open source project and is accessible to everyone. I am in the build process of the UI. I will make a flashloan button available to everyone. See the demo transactions in the next segment. Work in progress...
+The set up is easy. Rush is an open source project the tool is accessible to everyone. I am in the build process of to make clean up the projects code base. I hope to make flashloans easy for to everyone to understand. See the demo transactions in the next segment. Work in progress...
 
 Check back later. 👷
+
+<>
 
 ## Transactions Reference
 
@@ -45,53 +47,13 @@ The flash loan fee is initialized at deployment to `0.09%` which is updated via 
 
   - Fee to Protocol = `flashloan_premium_to_protocol`
 
-<!-- - Setting Up
-    - Ensure we have enough funds when flashloaning
-    - Calculate the profitability of liquidating loans vs gas costs
-    - Fail safe security
-- Aave contracts and registry on Optimism
-    - [V3 Testnet Aave Address on Optimism Görli](https://docs.aave.com/developers/deployed-contracts/v3-testnet-addresses) -->
+## Setting Up
 
-## Roadmap
+- Ensure we have enough funds when flashloaning
+- Calculate the profitability of liquidating loans vs gas costs
+- Fail safe security by using a testnet like Goerli before moving to mainnet
+- You can find Aave contracts annd registries [Testnet Aave Contract Addresses](https://docs.aave.com/developers/deployed-contracts/v3-testnet-addresses)
 
-- [x] Create Project
-  - [Loan Rush](https://ethglobal.com/showcase/rush-8s2mf)
-- [ ] Checkin #1
-  - Update: We Missed checkin #1
-- [x] Create Logo
-  - [Rush logo]()
-- [ ] Create Discord
-  - [Discord]()
-- [x] Submit Checkin #2
-  - How is the project coming along?
-- [x] Create scripts
-  - deploy_flashloan.py
-  - aave_balances.py
-  - run_flashloan.py
-  - simple_flashloan.py
-  - supply_token.py
-  - withdraw_token.py
-- [x] Project feedback Session Thu, Sep 15 02:00 PM
-- [x] Create Presentation Sun, Sep 18 11:00 AM
-- [ ] Bonus
-  - Front end landing page
-  - Users can connect metamask
-  - User can call deposit WETH function
-  - User can send flashloan
-- [x] Project Check-in #3 Tue, Sep 20 11:00 AM
-  - Is everything going as expected?
-  - What are some things you need help with?
-  - What do you need to complete your project?
-- [x] Project feedback Session Wed, Sep 21 02:00 PM
-  - Present project for feedback
-- [x] ETHOnline Summit Fri, Sep 23 11:00 AM
-  - If ready submit project
-  - Record Video demonstration on how to use rush
-- [x] Submissions Due! Sun, Sep 25 02:00 PM
-  - Submit project by 2:00pm
-- [x] Project Judging Mon, Sep 26 11:00 AM
-  - Present to judges and sponsors
+## Sponsor
 
-## Sponsors
-
-- Aaave
+- Aave
