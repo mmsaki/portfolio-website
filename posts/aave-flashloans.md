@@ -8,7 +8,7 @@ author: "Meek Msaki"
 
 ## Rush Finance Forex Tool
 
-I made this forex tool so I can onboard many defi users to use flashloans on lending protocols i.e. Aave and remain with `0` debt.
+I created this forex tool to help onboard DeFi users to using flashloans on lending protocols like Aave, all while keeping their debt at zero. With this tool, anyone can learn how to use flashloans, even if they don't have a technical background.
 
 ## Summary
 
