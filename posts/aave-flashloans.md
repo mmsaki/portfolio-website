@@ -26,8 +26,6 @@ The set up is easy. Rush is an open source project the tool is accessible to eve
 
 Check back later. 👷
 
-<>
-
 ## Transactions Reference
 
 See examples below of flashloan transations and how they are submitted. From these results aave fees for $1,000,000 flashloan is $500.
