@@ -1,6 +1,6 @@
 ---
 title: "Digital Banking Trends and Alternative Finance"
-date: "2022-06-30"
+date: "2022-11-30"
 author: "Meek Msaki"
 ---
 
