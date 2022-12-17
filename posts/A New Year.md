@@ -1,6 +1,6 @@
 ---
 title: "A New Year"
-date: "2022-01-30"
+date: "2022-01-31"
 author: "Meek Msaki"
 ---
 
