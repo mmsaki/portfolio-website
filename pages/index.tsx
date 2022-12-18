@@ -38,6 +38,9 @@ export default function Home({
           <Link href="https://github.com/mmsaki"> Github</Link> and
           <Link href="https://twitter.com/msakiart"> Twitter</Link>.
         </p>
+        <p>
+          All content is for informational purposes only or not intended as financial advice.
+        </p>
       </section>
       <div className="container">
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
