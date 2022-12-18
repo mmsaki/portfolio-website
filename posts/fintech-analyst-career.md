@@ -1,5 +1,5 @@
 ---
-title: "Fintech analyst career"
+title: "A Financial Technology Analyst Career"
 date: "2022-04-30"
 ---
 
