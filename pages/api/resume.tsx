@@ -6,8 +6,7 @@ export const config = {
 };
 
 export default async function () {
-  return new ImageResponse(
-    (
+  return new ImageResponse((
       <div
         style={{
           display: "flex",
@@ -18,15 +17,15 @@ export default async function () {
           justifyContent: "center",
         }}
       >
-        <img
-          alt="Github Profile"
-          width="456"
-          height="456"
-          src="/images/profile.jpg"
-          style={{ borderRadius: 128 }}
+        <Image
+          alt="Meek Msaki Resume"
+          width={544}
+          height={766}
+          src="/images/resume.jpg"
+          style={{ borderRadius: 12 }}
         />
         <p></p>
       </div>
-    )
+  )
   );
 }

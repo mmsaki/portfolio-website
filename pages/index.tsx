@@ -5,6 +5,7 @@ import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
 import { GetStaticProps } from "next";
+import Image from "next/image";
 
 export default function Home({
   allPostsData,
@@ -39,7 +40,8 @@ export default function Home({
           <Link href="https://twitter.com/msakiart"> Twitter</Link>.
         </p>
         <p>
-          All content is for informational purposes only or not intended as financial advice.
+          All content is for informational purposes only or not intended as
+          financial advice.
         </p>
       </section>
       <div className="container">
