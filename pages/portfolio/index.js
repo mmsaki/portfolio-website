@@ -20,11 +20,6 @@ export default function Porfolio() {
   }, []);
 
   return (
-    <div className='container'>
-      <Head>
-        <title>Meek Msaki Resume</title>
-      </Head>
       <div className='webviewer' ref={viewer} style={{ height: '100vh', width: "100vw" }}></div>
-    </div>
   );
 }
