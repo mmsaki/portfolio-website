@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import utilStyles from "../../styles/utils.module.css";
 
-export default function Punks() {
+export default function Resume() {
   return (
     <div className="container">
       <Head>
@@ -10,9 +10,8 @@ export default function Punks() {
       </Head>
       <img
         alt="Meek Msaki Resume"
-        width="50%"
-        height="100%"
         src="/images/resume.jpg"
+        style={{ height: "100vh" }}
       />
     </div>
   );
