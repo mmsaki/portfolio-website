@@ -6,7 +6,7 @@ author: "Meek Msaki"
 
 ## How does banking work?
 
-Today I missed an interview with the Association for Black Economic Power (ABEP), and I'm disappointed because I had a vision to make a real difference for underserved communities here in Minneapolis and around the world. I think public goods can extend to credit unions or banking - it's a revolutionary way to improve banking interactions and make finance more accessible for everyone.
+In August 2020, I missed an interview with the Association for Black Economic Power (ABEP), and I'm disappointed because I had a vision to make a real difference for underserved communities here in Minneapolis and around the world. I think public goods can extend to credit unions or banking - it's a revolutionary way to improve banking interactions and make finance more accessible for everyone.
 
 In the United States, banks are regulated by the [Office of the Comptroller of the Currency (OCC)](https://www.occ.treas.gov/index.html) and other agencies. For example, banks with assets greater than $10 billion may be regulated by the [Federal Reserve](https://www.federalreserve.gov/), and state-chartered banks may be regulated by state banking agencies. Banks may also be subject to regulation by other agencies depending on their activities, such as the [Securities and Exchange Commission (SEC)](https://www.sec.gov/) for securities activities or the [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/) for consumer financial products and services.
 
