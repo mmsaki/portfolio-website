@@ -24,7 +24,7 @@ export default function Porfolio() {
       <Head>
         <title>Meek Msaki Resume</title>
       </Head>
-      <div className='webviewer' ref={viewer} style={{ height: '100vh', width: "100vh" }}></div>
+      <div className='webviewer' ref={viewer} style={{ height: '100vh', width: "100vw" }}></div>
     </div>
   );
 }
