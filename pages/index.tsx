@@ -6,7 +6,7 @@ import Link from "next/link";
 import Date from "../components/date";
 import { GetStaticProps } from "next";
 import Image from "next/image";
-import Calendly from "../components/calendly";
+import Calendly from "../components/Calendly";
 
 export default function Home({
   allPostsData,
