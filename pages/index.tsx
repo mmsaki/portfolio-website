@@ -6,6 +6,7 @@ import Link from "next/link";
 import Date from "../components/date";
 import { GetStaticProps } from "next";
 import Image from "next/image";
+import Calendly from "../components/calendly";
 
 export default function Home({
   allPostsData,
@@ -22,13 +23,15 @@ export default function Home({
       <Head>
         <title>{siteTitle}</title>
       </Head>
-
       <section className={utilStyles.headingMd}>
         <p>
           Hello, I'm <span className={utilStyles.bolded}>Meek. </span>
           I'm a Junior Fintech/Blockchain Analytst and also an Artist (Sculptor
           & Music Producer).
         </p>
+        <a href="https://calendly.com/meekmsaki/30min">
+          Schedule time with me
+        </a>
         <p>
           Welcome to my FinTech blog! I'm glad you're here. I'm thrilled to have
           you as a reader and hope you find my insights and perspectives on
@@ -57,19 +60,6 @@ export default function Home({
             ))}
           </div>
         </section>
-        {/* <Link href="/punk">
-          <section className="card">
-            <h2
-              className={`${utilStyles.headingMd} ${utilStyles.padding1px} noneselect`}
-            >
-              Money Brothers™ Punk &rarr;
-            </h2>
-            <p className="noselect">🚧 Under consturction. </p>
-            <small className="noselect">
-              No Punks sales on this site. Please check back later.
-            </small>
-          </section>
-        </Link> */}
       </div>
     </Layout>
   );
